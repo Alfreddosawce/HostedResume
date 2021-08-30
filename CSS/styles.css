@@ -1,0 +1,127 @@
+body{
+  margin-top: 100px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  font-family: 'Festive';
+  color: #66BFBF;
+
+
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+}
+
+hr {
+  border: none;
+  border-top: 15px dotted #43A367;
+  width: 10%;
+  color: #385380;
+}
+
+p{
+  line-height: 2;
+}
+
+/* class */
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+
+  clear: both;
+
+}
+
+.contact-button {
+   background: #66BFBF;
+
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-button:hover {
+   background: #519898;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+/* container */
+.top-container{
+  background-color: #F67280;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: #C06C84;
+}
+
+.bottom-container{
+  background-color: #6C5B7B;
+  padding: 10px;
+}
+
+.button-spacing{
+
+  padding: 100px;
+}
+
+/* image properties */
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.computer-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.program-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* footer */
+.contact-me{
+  clear: both;
+}
+
+.footer-link{
+  color: #11999E;
+}
